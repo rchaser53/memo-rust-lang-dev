@@ -1,0 +1,1 @@
+docker run -it -v $(pwd)/:/home/app miri:ubuntu-18.04 bash

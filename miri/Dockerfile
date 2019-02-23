@@ -7,7 +7,7 @@ WORKDIR /home/app
 
 RUN apt-get update && \
     apt-get install curl -y && \
-    apt-get install build-essential -y && \
+    apt install gcc-multilib -y && \
     rm -rf /var/cache/apt/* 
 
 RUN RUST_TOOLCHAIN=nightly && \
