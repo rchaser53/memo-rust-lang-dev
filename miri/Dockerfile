@@ -8,6 +8,7 @@ WORKDIR /home/app
 RUN apt-get update && \
     apt-get install curl -y && \
     apt install gcc-multilib -y && \
+    apt install python3 -y && \
     rm -rf /var/cache/apt/* 
 
 RUN RUST_TOOLCHAIN=nightly && \
