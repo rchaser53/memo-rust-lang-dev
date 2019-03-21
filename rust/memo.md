@@ -1,3 +1,5 @@
+# I failed below condition at 03172019. So I used miri docker now.
+
 https://github.com/rust-lang/rust/issues/49269
 
 @Randl: you probably are refering to:
