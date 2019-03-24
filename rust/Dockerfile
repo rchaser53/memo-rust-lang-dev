@@ -1,5 +1,6 @@
-# I'm not sure the reason but failed to build in mac. so use ubuntu container
 FROM ubuntu:18.04
+
+ENV PATH /root/.cargo/bin:$PATH
 
 WORKDIR /home/app
 
