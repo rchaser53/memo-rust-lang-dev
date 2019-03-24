@@ -9,3 +9,6 @@ Line 792 in bc87c71
 
  build.use_vendored_sources = True 
 thanks for pointing out! (your link points to master, and that changed...)
+
+- ./x.py clean
+- ./x.py build && sudo ./x.py install
