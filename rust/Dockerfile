@@ -10,6 +10,9 @@ RUN apt-get update && \
     apt-get install python -y && \
     apt-get install libsdl1.2-dev -y && \
     apt install git -y && \
+    apt-get install libssl-dev && \
     rm -rf /var/cache/apt/* && \
     RUST_TOOLCHAIN=nightly && \
-    curl https://build.travis-ci.org/files/rustup-init.sh -sSf | sh -s -- -y --default-toolchain "$RUST_TOOLCHAIN"
+    curl https://build.travis-ci.org/files/rustup-init.sh -sSf | sh -s -- -y --default-toolchain "$RUST_TOOLCHAIN" && \
+    cargo install cargo-vendor && \
+    cargo vendor
