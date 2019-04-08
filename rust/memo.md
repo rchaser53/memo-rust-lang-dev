@@ -11,4 +11,6 @@ Line 792 in bc87c71
 thanks for pointing out! (your link points to master, and that changed...)
 
 - ./x.py clean
+- cargo install cargo-vendor
+- cargo vendor
 - ./x.py build && ./x.py install
