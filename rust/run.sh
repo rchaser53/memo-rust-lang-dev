@@ -1,0 +1,1 @@
+docker run -it -m "2000M" --memory-swap "4G" -v $(pwd):/home/app rust:ubuntu-18.04 bash
