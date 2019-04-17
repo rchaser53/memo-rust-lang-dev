@@ -7,4 +7,5 @@
 currently try to use EC2 for build. the below types cannot use
 - c5.xlarge
   - doesn't have enough space to build
-  - EBS will be deleted when instance is stopped
+  - just enlarge HDD 20GB
+  - first ./x.py install is failed. second try is succeed after ./x.py clean
