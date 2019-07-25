@@ -1,8 +1,4 @@
-- ./x.py clean
-- cargo install cargo-vendor
-- cargo vendor
-- ./x.py build && sudo ./x.py clean && sudo ./x.py install
-
+./x.py build && sudo ./x.py clean
 
 currently try to use EC2 for build. the below types cannot use
 - c5.xlarge
