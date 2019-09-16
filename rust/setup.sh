@@ -10,5 +10,4 @@ sudo apt-get install libsdl1.2-dev -y
 sudo apt install git -y
 sudo apt-get install libssl-dev -y
 sudo apt-get install cmake -y
-RUST_TOOLCHAIN=nightly
-curl https://build.travis-ci.org/files/rustup-init.sh -sSf | sh -s -- -y --default-toolchain "$RUST_TOOLCHAIN"
+curl https://build.travis-ci.org/files/rustup-init.sh -sSf | sh -s -- -y --default-toolchain nightly
